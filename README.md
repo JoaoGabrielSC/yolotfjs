@@ -58,5 +58,3 @@ Use another YOLOv8 model.
 
 Please update `src/utils/labels.json` with your new classes.
 
-# References
- - https://github.com/Hyuto/yolov8-tfjs.git
