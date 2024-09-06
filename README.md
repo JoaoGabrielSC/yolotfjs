@@ -57,3 +57,6 @@ Use another YOLOv8 model.
 **Note: Custom Trained YOLOvx Models**
 
 Please update `src/utils/labels.json` with your new classes.
+
+# References
+ - https://github.com/Hyuto/yolov8-tfjs.git
