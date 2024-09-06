@@ -8,7 +8,7 @@ with `webgl` backend.
 **Setup**
 
 ```bash
-git clone https://github.com/Hyuto/yolov10-tfjs.git
+git clone https://github.com/JoaoGabrielSC/yolotfjs.git
 cd yolov10-tfjs
 npm install #Install dependencies
 ```
@@ -38,18 +38,18 @@ Use another YOLOv8 model.
    from ultralytics import YOLO
 
    # Load a model
-   model = YOLO("yolov8n.pt")  # load an official model
+   model = YOLO("yolov10m.pt")  # load an official model
 
    # Export the model
    model.export(format="tfjs")
    ```
 
-2. Copy `yolov8*_web_model` to `./public`
+2. Copy `yolovX*_web_model` to `./public`
 3. Update `modelName` in `App.jsx` to new model name
    ```jsx
    ...
    // model configs
-   const modelName = "yolov8*"; // change to new model name
+   const modelName = "yolov10*"; // change to new model name
    ...
    ```
 4. Done! 😊
@@ -57,8 +57,3 @@ Use another YOLOv8 model.
 **Note: Custom Trained YOLOvx Models**
 
 Please update `src/utils/labels.json` with your new classes.
-
-## Reference
-
-- https://github.com/ultralytics/ultralytics
-- https://github.com/Hyuto/yolov8-onnxruntime-web
