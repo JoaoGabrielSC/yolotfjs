@@ -30,9 +30,9 @@ size       : 30 Mb
 
 **Use another model**
 
-Use another YOLOv8 model.
+Use another YOLOv10 model.
 
-1. Export YOLOv8 model to tfjs format. Read more on the [official documentation](https://docs.ultralytics.com/tasks/detection/#export)
+1. Export YOLOv10 model to tfjs format. Read more on the [official documentation](https://docs.ultralytics.com/tasks/detection/#export)
 
    ```python
    from ultralytics import YOLO
